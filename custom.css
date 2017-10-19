@@ -1,0 +1,72 @@
+		body{
+			font-family: cursive;
+			/*color: #777777;*/
+			background-image: url(http://getbootstrap.com/assets/img/bootstrap-stack.png);
+			background-position: center top;
+			background-repeat: no-repeat;
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		div{
+			/*border: 2px solid #733FC0;
+			border-radius: 10px;*/
+		}
+		h1{
+			text-align: center;
+			font-size: 15px;
+		}
+		.btn-primary{
+			background-color: #733FC0;
+			border-color: #733FC0;
+		}
+		:hover.btn-primary{
+			background-color: white;
+			color: #733FC0;
+			border-color: #733FC0;
+		}
+		.list-group{
+			width: 85%;
+			margin: 60px auto;
+		}
+		.glyphicon-wrench{
+			color: #733FC0;
+			font-size: 40px;
+		}
+		:hover.glyphicon-wrench{
+			color: white;
+		}
+		.navbar{
+			border-radius: 0px;
+		}
+		.navbar-inverse .navbar-brand{
+			color: #733FC0;
+			font-size: 35px;
+		}
+		.navbar-inverse .navbar-nav > li > a {
+		    color: #733FC0;
+		}
+		#container{
+			margin-top: 20px;
+		}
+		#carousel{
+			
+		}
+		#modal{
+			margin-top: 30px;
+		}
+		div#carousel{
+		    width: 60%;
+		    margin: auto;
+		}
+		.carousel-inner > .item > img, 
+		.carousel-inner > .item > a > img{
+		width: 100%; /* use this, or not */
+		margin: auto;
+		}
+		@media screen and (max-width: 768px){
+			body{
+				padding-top: 220px;
+			}
+			.navbar-inverse .navbar-nav > li > a {
+		    	bottom-border: 1px solid #733FC0;
+		    }
