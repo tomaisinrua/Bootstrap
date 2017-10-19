@@ -7,6 +7,7 @@
 	<style type="text/css">
 		body{
 			font-family: cursive;
+			/*color: #777777;*/
 			background-image: url(http://getbootstrap.com/assets/img/bootstrap-stack.png);
 			background-position: center top;
 			background-repeat: no-repeat;
@@ -17,27 +18,56 @@
 		}
 		h1{
 			text-align: center;
+			font-size: 15px;
 		}
 		.list-group{
-			width: 90%;
+			width: 85%;
 			margin: 60px auto;
+		}
+		.glyphicon-wrench{
+			color: #733FC0;
+			font-size: 40px;
+		}
+		.navbar{
+			border-radius: 0px;
+		}
+		.navbar-inverse .navbar-brand{
+			color: #733FC0;
+			font-size: 35px;
+		}
+		.navbar-inverse .navbar-nav > li > a {
+		    color: #733FC0;
 		}
 	</style>
 </head>
 <body>
+	<nav class="navbar navbar-inverse">
+		<div class="navbar-header">
+		    <a class="navbar-brand" href="#">TOMáISIN</a>
+		    <span class="glyphicon glyphicon-wrench">
+		</div>
+		<div class="container">
+		    <ul class="nav navbar-nav navbar-right">
+			   <li><a href="#">Home</a></li>
+			   <li><a href="#">Services</a></li>
+			   <li><a href="#">Products</a></li>
+			   <li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+	</nav>
 	<h1>Hello this is a Bootstap Webpage</h1>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4"><h2>HTML</h2>
+			<div class="col-sm-4"><h4>HTML</h4>
 				<p>HTML is a major Web Technology that defines the strusture of a webpage. If you're looking to build websites you should know about HTML.</p>
 				<a href="#" class="btn btn-success btn-lg">Learn</a>
 			</div>
-			<div class="col-sm-4"><h2>CSS</h2>
+			<div class="col-sm-4"><h4>CSS</h4>
 				<p>Cascading Style Sheets, most of the time abreviated as CSS is a stylesheet language used to describe the presentation of a document written in HTML.</p>
 				<a href="#" class="btn btn-primary btn-default">Learn</a>
 			</div>
 			<div class="col-sm-4">
-				<h2>Bootstrap</h2>
+				<h4>Bootstrap</h4>
 				<p>Bootstrap makes fron-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes and projects of all sizes.</p>
 				<a href="#" class="btn btn-danger btn-xs">Learn</a> 
 			</div>
